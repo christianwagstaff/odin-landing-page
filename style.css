@@ -1,19 +1,20 @@
 
 .add_padding {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    align-items: center;
-    width: 100%;
+    align-items: space-between;
+    justify-content: space-between;
 }
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 40px;
 }
@@ -35,7 +36,15 @@ a {
 .upper {
     background-color: #1f2937;
     padding-bottom: 40px;
-    padding-top: 16px;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section1 {
@@ -44,7 +53,8 @@ a {
     padding-top: 0px;
     justify-content: space-between;
     align-items: center;
-    gap: 75px;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -52,7 +62,7 @@ h1 {
     font-weight: extra-bold;
 }
 
-p,h1 {
+p,h1,h2,h3 {
     margin-block-end: 0px;
     margin-block-start: 0px;
 }
@@ -63,6 +73,7 @@ p,h1 {
 
 .secondary {
     color: #e5e8eb;
+    font-size: 18px;
 }
 
 button {
@@ -106,7 +117,9 @@ blockquote {
 .call_to_action {
     display: flex;
     background-color: #3882f6;
-    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
 }
 
 .call_to_action button {
@@ -120,23 +133,51 @@ blockquote {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    padding: 32px;
+    gap: 32px;
 }
 
-.center {
+.cards {
     display: flex;
-    gap: 40px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .card img {
-    max-width: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    width: 150px;
+    gap: 12px;
 }
 
 .light-blue-border {
     border-style: solid;
     border-color: #3882f6;
     border-width: 3px;
+}
+
+.inspiring {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 60%;
 }
