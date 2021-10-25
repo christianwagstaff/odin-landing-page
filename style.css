@@ -90,21 +90,24 @@ button {
 .figure {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     background-color: #e5e8eb;
-    padding: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 figcaption {
     font-weight: 600;
     max-width: 50%;
     font-size: 30px;
+    align-self: flex-end;
 }
 
 blockquote {
     font-size: 36px;
     font-weight: light italic;
     color: #1f2937;
+    padding: 0px;
 }
 
 .action {
@@ -168,6 +171,7 @@ blockquote {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1f2937;
+    text-align: center;
 }
 
 .logo {
@@ -180,4 +184,5 @@ blockquote {
     flex-direction: column;
     gap: 16px;
     max-width: 60%;
+    align-items: flex-start;
 }
