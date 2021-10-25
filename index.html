@@ -8,62 +8,64 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        Header Logo
-        <nav>
-            <a href="#">header link one</a>
-            <a href="#">header link two</a>
-            <a href="#">header link three</a>
-        </nav>
-    </header>
-    <section>
-        <div class = 'left-side'>
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes under the main title. It's smaller font and the color lower contrast</p>
-            <button>Sign up</button>
-        </div>
-        <img src=''>
-    </section>
-    <section>
-        <h2>Some random information.</h2>
-        <div class='center'>
-            <div class='card'>
-                <img src='' class='light-blue-border'>
-                <p>this is some subtext under an illustration or image</p>
+    <div class='upper add_padding'>
+        <header>
+            <div class='logo primary'>Header Logo</div>
+            <nav>
+                <a href="#" class='secondary'>header link one</a>
+                <a href="#" class='secondary'>header link two</a>
+                <a href="#" class='secondary'>header link three</a>
+            </nav>
+        </header>
+        <section class='section1'>
+            <div class='left-side'>
+                <h1 class='primary'>This website is awesome</h1>
+                <p class='secondary'>This website has some subtext that goes under the main title. It's smaller font and the color lower contrast</p>
+                <button class='rounded'>Sign up</button>
             </div>
-            <div class='card'>
-                <img src='' class='light-blue-border'>
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div class='card'>
-                <img src='' class='light-blue-border'>
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div class='card'>
-                <img src='' class='light-blue-border'>
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-        </div>
-    </section>
-    <figure>
-        <blockquote>
-            <p>
-                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people actually read it. Who knows? All I know is that it looks nice.
-            </p>
-        </blockquote>
-        <figcaption>
-            -Thor, God of Thunder
-        </figcaption>
-    </figure>
-    <div class='call-to-action'>
-        <div call='left-side'>
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-        </div>
-        <button>Sign up</button>
+            <img src='images/sweaters.jpg' class='upper-image'>
+        </section>
     </div>
-    <footer>
-        Copyright © The Odin Project 2021
+    <section class='add_padding section2'>
+            <h2>Some random information.</h2>
+            <div class='center'>
+                <div class='card'>
+                    <img src='images/stacked_sweaters.jpg' class='light-blue-border rounded'>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class='card'>
+                    <img src='images/stacked_sweaters.jpg' class='light-blue-border rounded'>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class='card'>
+                    <img src='images/stacked_sweaters.jpg' class='light-blue-border rounded'>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class='card'>
+                    <img src='images/stacked_sweaters.jpg' class='light-blue-border rounded'>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+            </div>
+    </section>
+        <div class='figure'>
+            <blockquote>
+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people actually read it. Who knows? All I know is that it looks nice.
+            </blockquote>
+            <figcaption>
+                -Thor, God of Thunder
+            </figcaption>
+        </div class='figure'>
+    <div class='add_padding action'>
+        <div class='call_to_action rounded'>
+            <div class='left-side'>
+                <h3 class='primary'>Call to action! It's time!</h3>
+                <p class="secondary">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class='rounded secondary'>Sign up</button>
+        </div>
+    </div>
+    <footer class='add_padding'>
+            Copyright © The Odin Project 2021
     </footer>
 </body>
 </html>
